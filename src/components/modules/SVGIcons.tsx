@@ -401,7 +401,7 @@ export const SVGIcons = () => {
           d="M8.67 27.96v1.273H1.37v-1.272zM5.7 24.854v7.751H4.348v-7.75zM28.787 8.789v1.272h-7.298V8.79zm-2.97-3.108v7.751h-1.352v-7.75zM28.787 27.96v1.273h-7.298v-1.272zm-2.97-3.107v7.751h-1.352v-7.75zM28.787 47.133v1.272h-7.298v-1.272zm-2.97-3.108v7.751h-1.352v-7.751zM28.787 66.305v1.272h-7.298v-1.272zm-2.97-3.108v7.751h-1.352v-7.751zM48.904 8.789v1.272h-7.298V8.79zm-2.97-3.108v7.751h-1.352v-7.75zM48.904 27.96v1.273h-7.298v-1.272zm-2.97-3.107v7.751h-1.352v-7.75zM48.904 47.133v1.272h-7.298v-1.272zm-2.97-3.108v7.751h-1.352v-7.751zM48.904 66.305v1.272h-7.298v-1.272zm-2.97-3.108v7.751h-1.352v-7.751z"
         ></path>
       </symbol>
-      <svg
+      <symbol
         xmlns="http://www.w3.org/2000/svg"
         id="triangle"
         width="144"
@@ -435,7 +435,42 @@ export const SVGIcons = () => {
             ></path>
           </clipPath>
         </defs>
-      </svg>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="clock"
+        fill="none"
+        viewBox="0 0 18 19"
+      >
+        <circle
+          cx="8.999"
+          cy="9.933"
+          r="7.5"
+          stroke="#747893"
+          strokeWidth="1.125"
+        ></circle>
+        <path
+          stroke="#747893"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.125"
+          d="M9 6.933v3l1.875 1.875"
+        ></path>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="arrow"
+        fill="none"
+        viewBox="0 0 36 36"
+      >
+        <path
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2.6"
+          d="M26.526 26.526 8.842 8.842m0 0h13.263m-13.263 0v13.263"
+        ></path>
+      </symbol>
     </svg>
   );
 };

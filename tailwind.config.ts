@@ -15,6 +15,7 @@ const config: Config = {
   theme: {
     extend: {
       spacing: {
+        "1.25": "5px",
         "1.75": "7px",
         "2.25": "9px",
         "2.75": "11px",
@@ -142,6 +143,7 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
         default: "20px",
+        "10": "10px",
         "9": "9px",
         "13": "13px",
         "15": "15px",
@@ -149,6 +151,8 @@ const config: Config = {
         "20": "20px",
         "28": "28px",
         "30": "30px",
+        "32": "32px",
+        "40": "40px",
         "48": "48px",
       },
       container: {
@@ -171,6 +175,9 @@ const config: Config = {
         "discountBG-desktop-dark": "url(/images/discount-bg-desktop-dark.svg)",
         "discountBG-desktop": "url(/images/discount-bg-desktop.svg)",
         "discountBG-mobile-dark": "url(/images/discount-bg-mobile-dark.svg)",
+      },
+      backdropBlur: {
+        "20": "20px",
       },
     },
     screens: {
