@@ -301,6 +301,70 @@ export const SVGIcons = () => {
           </clipPath>
         </defs>
       </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="yellow-circle"
+        fill="none"
+        viewBox="0 0 131 330"
+      >
+        <g filter="url(#filter0_f_32_1530)">
+          <circle cx="-33.5" cy="165.433" r="107.5" fill="#FFF8D4"></circle>
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_32_1530"
+            width="329"
+            height="329"
+            x="-198"
+            y="0.933"
+            colorInterpolationFilters="sRGB"
+            filterUnits="userSpaceOnUse"
+          >
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
+            <feBlend
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            ></feBlend>
+            <feGaussianBlur
+              result="effect1_foregroundBlur_32_1530"
+              stdDeviation="28.5"
+            ></feGaussianBlur>
+          </filter>
+        </defs>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="blue-circle"
+        fill="none"
+        viewBox="0 0 147 337"
+      >
+        <g filter="url(#filter0_f_32_1531)">
+          <circle cx="169.147" cy="168.681" r="81.251" fill="#D3E5FF"></circle>
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_32_1531"
+            width="336.501"
+            height="336.501"
+            x="0.896"
+            y="0.431"
+            colorInterpolationFilters="sRGB"
+            filterUnits="userSpaceOnUse"
+          >
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
+            <feBlend
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            ></feBlend>
+            <feGaussianBlur
+              result="effect1_foregroundBlur_32_1531"
+              stdDeviation="43.5"
+            ></feGaussianBlur>
+          </filter>
+        </defs>
+      </symbol>
     </svg>
   );
 };
