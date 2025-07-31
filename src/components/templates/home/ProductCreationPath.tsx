@@ -69,7 +69,7 @@ export const ProductCreationPath = () => {
       <svg className="hidden md:inline-block absolute -right-10 top-0 w-[162px] h-[162px]">
         <use href="#blue-circle"></use>
       </svg>
-      <svg className="hidden md:inline-block absolute bottom-[78px] -left-[85px] w-[215px] h-[215px]">
+      <svg className="hidden md:inline-block absolute bottom-[78px] -left-[85px] w-[215px] h-[215px] opacity-100 dark:opacity-50">
         <use href="#yellow-circle"></use>
       </svg>
       <svg className="hidden md:inline-block absolute bottom-[320px] right-0 w-[67px] h-[72px]">
