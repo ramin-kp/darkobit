@@ -68,6 +68,7 @@
   body {
     font-family: var(--font-yekanbakh);
     font-weight: normal;
+    overflow-x: hidden !important;
   }
   * {
     @apply border-border;
@@ -79,5 +80,18 @@
 @layer components {
   .header__nav {
     @apply flex items-center gap-2.75 py-1.5 pr-1 xl:pr-3 pl-3 xl:pl-5 hover:bg-primary-default md:text-sm xl:text-base text-neutral-600 dark:text-neutral-150 hover:dark:text-dark hover:text-dark rounded-13 transition-all duration-150;
+  }
+  .product-creation__title {
+    display: inline-block;
+    background: linear-gradient(to right, #ffe351 0%, #1d6adc 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .product-creation__title--dark {
+    display: inline-block;
+    background: #ffe351;
+    background: linear-gradient(to right, #ffe351 11%, #82b4ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
