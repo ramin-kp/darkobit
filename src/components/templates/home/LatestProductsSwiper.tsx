@@ -35,9 +35,13 @@ export default function LatestProductsSwiper() {
             slidesPerView: 4,
             spaceBetween: 24,
           },
+          1280: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
         }}
         modules={[Pagination]}
-        className="mySwiper bg-light-200/50 dark:bg-dark-200 rounded"
+        className="mySwiper bg-light-200/50 dark:bg-dark-200 rounded cursor-pointer"
       >
         <SwiperSlide className="flex flex-col items-start justify-start px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
           <ShopCard />

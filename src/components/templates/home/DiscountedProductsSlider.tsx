@@ -14,7 +14,7 @@ export const DiscountedProductsSlider = () => {
     <Swiper
       // onSwiper={(swiper) => (swiperRef.current = swiper)}
       slidesPerView={1}
-      spaceBetween={33}
+      spaceBetween={13}
       breakpoints={{
         640: {
           slidesPerView: 2,
@@ -26,37 +26,41 @@ export const DiscountedProductsSlider = () => {
         },
         1024: {
           slidesPerView: 3,
-          spaceBetween: 24,
+          spaceBetween: 26,
+        },
+        1280: {
+          slidesPerView: 3,
+          spaceBetween: 20,
         },
       }}
       modules={[Pagination]}
-      className="mySwiper rounded !ml-2"
+      className="mySwiper rounded !ml-2 cursor-pointer"
     >
-      <SwiperSlide className="flex flex-col items-start justify-start px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
+      <SwiperSlide className="flex flex-col items-start justify-start !w-[248px]  lg:!w-[272px] md:!h-[280px] lg:!h-auto px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
         <ShopCard />
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-start justify-start px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
+      <SwiperSlide className="flex flex-col items-start justify-start !w-[248px]  lg:!w-[272px] md:!h-[280px] lg:!h-auto px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
         <ShopCard />
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-start justify-start px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
+      <SwiperSlide className="flex flex-col items-start justify-start !w-[248px]  lg:!w-[272px] md:!h-[280px] lg:!h-auto px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
         <ShopCard />
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-start justify-start px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
+      <SwiperSlide className="flex flex-col items-start justify-start !w-[248px]  lg:!w-[272px] md:!h-[280px] lg:!h-auto px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
         <ShopCard />
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-start justify-start px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
+      <SwiperSlide className="flex flex-col items-start justify-start !w-[248px]  lg:!w-[272px] md:!h-[280px] lg:!h-auto px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
         <ShopCard />
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-start justify-start px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
+      <SwiperSlide className="flex flex-col items-start justify-start !w-[248px]  lg:!w-[272px] md:!h-[280px] lg:!h-auto px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
         <ShopCard />
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-start justify-start px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
+      <SwiperSlide className="flex flex-col items-start justify-start !w-[248px]  lg:!w-[272px] md:!h-[280px] lg:!h-auto px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
         <ShopCard />
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-start justify-start px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
+      <SwiperSlide className="flex flex-col items-start justify-start !w-[248px]  lg:!w-[272px] md:!h-[280px] lg:!h-auto px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
         <ShopCard />
       </SwiperSlide>
-      <SwiperSlide className="flex flex-col items-start justify-start px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
+      <SwiperSlide className="flex flex-col items-start justify-start !w-[248px]  lg:!w-[272px] md:!h-[280px] lg:!h-auto px-6 !bg-light dark:!bg-dark-500 rounded-48 ">
         <ShopCard />
       </SwiperSlide>
     </Swiper>

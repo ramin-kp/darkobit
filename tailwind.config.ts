@@ -147,6 +147,7 @@ const config: Config = {
         "15": "15px",
         "18": "18px",
         "20": "20px",
+        "28": "28px",
         "30": "30px",
         "48": "48px",
       },
@@ -158,7 +159,8 @@ const config: Config = {
         },
       },
       fontSize: {
-        "xs-mines": "0.6875srem",
+        small: "0.4375rem",
+        "xs-mines": "0.6875rem",
         "sm-mines": "0.8125rem",
         "base-mines": "0.9375rem",
         "3x-mines": "1.75rem",
@@ -166,7 +168,9 @@ const config: Config = {
       },
       backgroundImage: {
         "discountBG-mobile": "url(/images/discount-bg-mobile.svg)",
+        "discountBG-desktop-dark": "url(/images/discount-bg-desktop-dark.svg)",
         "discountBG-desktop": "url(/images/discount-bg-desktop.svg)",
+        "discountBG-mobile-dark": "url(/images/discount-bg-mobile-dark.svg)",
       },
     },
     screens: {
@@ -175,7 +179,6 @@ const config: Config = {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
-
       // "2xl": "1536px",
     },
   },

@@ -4,18 +4,19 @@ import Image from "next/image";
 export default function ShopCard() {
   return (
     <>
-      <div className="mt-[39px]">
+      <div className="mt-[39px] shrink-0">
         <Image
           src="/images/notebook.png"
           width={146}
           height={146}
           alt="عکس محصول"
+          className="!w-20 lg:w-auto"
         />
       </div>
-      <p className="w-full my-2.5 text-right text-[#081035] dark:text-[#EEEEEE] text-base font-peyda font-bold">
+      <p className="w-full my-3.5 lg:my-2.5 text-right text-[#081035] dark:text-[#EEEEEE] text-base font-peyda font-bold">
         فروش فایل دیجیتال
       </p>
-      <div className="flex items-start justify-start gap-1 w-full font-bold text-primary-700">
+      <div className="flex items-start justify-start gap-1 w-full mt-3.5 font-bold text-primary-700">
         <p className="leading-none">4.2</p>
         <svg className="size-4">
           <use href="#star"></use>
